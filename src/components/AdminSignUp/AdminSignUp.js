@@ -212,7 +212,7 @@ function AdminSignUp(props) {
                 value={message}
               />
               <Button type="submit" inverted loading={load}>
-                Request Acess
+                Request Access
               </Button>
               {Object.entries(errors).length > 0 && (
                 <Message
