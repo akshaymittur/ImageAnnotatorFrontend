@@ -14,3 +14,23 @@
   display: block;
   margin: auto;
 }
+.howtxt {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 140%;
+  color: grey;
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+.info {
+  font-family: sans-serif;
+  font-weight: 30;
+  font-style: normal;
+  font-size: 175%;
+  color: grey;
+  display: block;
+  margin: auto;
+  width: 100%;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import HomeNav from "./HomeNav";
 import HomeBody from "./HomeBody";
 import AnimatedText from "./AnimatedText";
+import HowText from "./HowText";
 import "./styles.css";
 import Details from "./Details";
 import CarouselHP from "./CarouselHP";
@@ -20,9 +21,10 @@ function HomePage() {
       <Details />
       <CarouselHP />
       <HomeBody />
+      <HowText />
       <Link
         to="/adminlogin"
-        style={{ position: "absolute", bottom: "3px", right: "3px" }}
+        style={{ position: "fixed", bottom: "3px", right: "3px" }}
       >
         <Button color="blue" animated>
           <Button.Content visible>Administrator</Button.Content>

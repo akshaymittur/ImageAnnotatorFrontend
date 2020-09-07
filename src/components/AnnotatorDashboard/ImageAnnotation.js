@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ImageEditor from "@toast-ui/react-image-editor";
-import { Button, Message, Icon, Divider, Checkbox } from "semantic-ui-react";
+import { Button, Message, Icon, Divider, Checkbox, Container } from "semantic-ui-react";
 import { withRouter } from "react-router-dom";
 import { ANNGETIMG, ANNUPLOAD } from "../../routes/routes";
 import axios from "axios";
@@ -110,11 +110,11 @@ function ImageAnnotation(props) {
   return (
     <div style={{ overlow: "auto", align: "center" }}>
       {done && (
-        <div style={{ display: "flex", marginLeft: "47%", marginTop: "5em" }}>
+        <Container textAlign='center' style>
           <Message positive>
             <Message.Header>All Caught Up!</Message.Header>
           </Message>
-        </div>
+        </Container>
       )}
       {images.map((img, key) => (
         <div
